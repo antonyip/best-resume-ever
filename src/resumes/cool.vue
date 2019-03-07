@@ -105,14 +105,15 @@
               class="section-content__item"
               :href="experience.website">
 
-              <span class="section-content__header">{{ experience.position }}</span>
-              <span class="section-content__subheader">
+              <div class="section-content__header">{{ experience.position }}</div>
+              <div class="section-content__subheader">
                 {{ experience.company }}
-                <span class="section-content__plain">{{ experience.location }}</span>
-              </span>
+                <div class="section-content__plain">{{ experience.location }}</div>
+              </div>
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <div class="section-content__text--light">{{ experience.description }}</div>
+              
             </a>
           </div>
         </div>
@@ -129,10 +130,10 @@
               :key="index"
               :href="education.website">
 
-              <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
-              <span class="section-content__text--light"> {{ education.description }} </span>
+              <div class="section-content__header"> {{ education.school }} </div>
+              <div class="section-content__subheader">{{ education.degree }}</div>
+              <div class="section-content__text"> {{ education.timeperiod }} </div>
+              <div class="section-content__text--light"> {{ education.description }} </div>
             </a>
           </div>
         </div>
@@ -144,9 +145,9 @@
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content">
             <a v-for="(project, index) in person.projects" :key="index"
-              class="section-content__item-grid"
+              class="section-content__item"
               :href="project.url">
               <span class="section-content__header"> {{ project.name }} </span>
               <span class="section-content__subheader">{{ project.platform }}</span>
@@ -162,10 +163,10 @@
             <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content">
             <a
               v-for="(contribution, index) in person.contributions"
-              class="section-content__item-grid"
+              class="section-content__item"
               :key="index"
               :href="contribution.url">
               <span class="section-content__header"> {{ contribution.name }} </span>

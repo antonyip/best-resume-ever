@@ -6,87 +6,81 @@ name:
 about: Hi, my name is Anton. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Software Engineer
 
 birth:
   year: 1990
   location: Singapore
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Continental Automotive Singapore
+  position: Software Engineer
+  timeperiod: since December 2015
+  description: Structured and Designed AnimaTool, a C# program used to parse and generate Animations within a Automotive Dashboard
+  website: https://www.continental-corporation.com/en-sg
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Chorus Games
+  position: Intern Software Engineer
+  timeperiod: May 2015 - November 2015
+  description: Developed and designed various systems in an un-announced application.
+  website: http://www.chorusgames.com
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Science in Computer Science and Game Design
+  school: DigiPen Singapore Institute of Technology
+  timeperiod: September 2012 - November 2015
+  description: Dual focus on Software Engieering and Game Design.
+  website: https://www.digipen.edu.sg
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: C++
+  level: 100
+- name: C#
+  level: 100
+- name: Java
   level: 80
-- name: ES.Next
+- name: Python
+  level: 80
+- name: Lua
+  level: 80
+- name: Jenkins
+  level: 80
+- name: CMake
+  level: 60
+- name: Javascript
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: NodeJS
+  level: 60
+- name: PHP
+  level: 60
+
+knowledge: Also proficient in Adobe Photoshop and Unity3D, grew up bilingual (English and Chinese).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: BlackJack Bot
+  platform: AutoIt
+  description: Automation to play blackjack using an AutoIt script. Runs on the website https://www.crypto-games.net/blackjack/litecoin
+  url: https://github.com/antonyip/blackjack-bot
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: The Burst Dymaxion
+  description: Automated Transactions Research on Burst
+  url: https://dymaxion.burst.cryptoguru.org/The-Burst-Dymaxion-1.00.pdf
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  street: Singapore
+  city: Singapore
+  email: anton_yip@hotmail.com
+  phone: +65 9822 5102
+  website: http://antonyip.com
+  github: antonyip
+  linkedin: anton-yip-7830b06a
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
