@@ -3,9 +3,8 @@ name:
   first: Yip
   middle: Yan Kit
   last: Anton
-about: Hi, my name is Anton. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+about: Hi, my name is Anton. I'm just about the most boring type of person you could
+       possibly imagine. I like messing around with new software technology that catches my interest. I am not a robot. Please hire me.
 position: Software Engineer
 
 birth:
@@ -15,14 +14,14 @@ birth:
 experience:
 - company: Continental Automotive Singapore
   position: Software Engineer
-  timeperiod: since December 2015
-  description: Structured and Designed AnimaTool, a C# program used to parse and generate Animations within a Automotive Dashboard
+  timeperiod: Since December 2015
+  description: Development of AnimaTool, a C# program used to parse and generate Animations within a Automotive Dashboard
   website: https://www.continental-corporation.com/en-sg
 
 - company: Chorus Games
   position: Intern Software Engineer
   timeperiod: May 2015 - November 2015
-  description: Developed and designed various systems in an un-announced application.
+  description: Developed and designed various systems in Unity3D.
   website: http://www.chorusgames.com
 
 education:
@@ -55,12 +54,12 @@ skills:
 - name: PHP
   level: 60
 
-knowledge: Also proficient in Adobe Photoshop and Unity3D, grew up bilingual (English and Chinese).
+knowledge: Proficient in Adobe Photoshop and Unity3D, Speaks and writes multiple languages. (English and Chinese + Programming Languages)
 
 projects:
 - name: BlackJack Bot
   platform: AutoIt
-  description: Automation to play blackjack using an AutoIt script. Runs on the website https://www.crypto-games.net/blackjack/litecoin
+  description: Automation to play blackjack using an AutoIt script.
   url: https://github.com/antonyip/blackjack-bot
 
 hobbies:
@@ -78,7 +77,8 @@ contact:
   city: Singapore
   email: anton_yip@hotmail.com
   phone: +65 9822 5102
-  website: http://antonyip.com
+  website: www.antonyip.com
+  realwebsite: http://www.antonyip.com
   github: antonyip
   linkedin: anton-yip-7830b06a
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el

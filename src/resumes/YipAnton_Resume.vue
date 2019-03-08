@@ -3,7 +3,6 @@
     <div class="banner">
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
-      <div class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
     </div>
 
     <div class="content">
@@ -34,9 +33,9 @@
               class="grid-item"
               :key="index"
               :href="skill.url">
-              <span class="squarred-grid-item">
+              <div class="squarred-grid-item">
                 {{ skill.name }}
-              </span>
+              </div>
             </a>
           </div>
         </div>
@@ -64,7 +63,7 @@
             <a
               v-if="person.contact.website"
               class="section-link"
-              :href="person.contact.website">
+              :href="person.contact.realwebsite">
               <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
             </a>
 
@@ -113,7 +112,8 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <div class="section-content__text--light">{{ experience.description }}</div>
-              
+              <div class="section-content__text--light">{{ experience.website }}</div>
+              <div><br/></div>              
             </a>
           </div>
         </div>
@@ -134,6 +134,7 @@
               <div class="section-content__subheader">{{ education.degree }}</div>
               <div class="section-content__text"> {{ education.timeperiod }} </div>
               <div class="section-content__text--light"> {{ education.description }} </div>
+              <div class="section-content__text--light"> {{ education.website }} </div>
             </a>
           </div>
         </div>
@@ -149,9 +150,10 @@
             <a v-for="(project, index) in person.projects" :key="index"
               class="section-content__item"
               :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
-              <span class="section-content__subheader">{{ project.platform }}</span>
-              <span class="section-content__text"> {{ project.description }} </span>
+              <div class="section-content__header"> {{ project.name }} </div>
+              <div class="section-content__subheader">{{ project.platform }}</div>
+              <div class="section-content__text"> {{ project.description }} </div>
+              <div class="section-content__text"> {{ project.url }} </div>
             </a>
           </div>
         </div>
@@ -169,11 +171,11 @@
               class="section-content__item"
               :key="index"
               :href="contribution.url">
-              <span class="section-content__header"> {{ contribution.name }} </span>
-              <span class="section-content__text"> {{ contribution.description }} </span>
-              <span class="section-content__text--light" style="word-break: break-all;">
+              <div class="section-content__header"> {{ contribution.name }} </div>
+              <div class="section-content__text"> {{ contribution.description }} </div>
+              <div class="section-content__text--light" style="word-break: break-all;">
                 {{ contribution.url }}
-              </span>
+              </div>
             </a>
           </div>
         </div>
@@ -194,8 +196,8 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #002148;
+@banner-color: #005AC8;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
