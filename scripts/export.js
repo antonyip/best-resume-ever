@@ -88,7 +88,7 @@ const getResumesFromDirectories = () => {
 const getDirectories = () => {
     const srcpath = path.join(__dirname, '../src/resumes');
     return fs.readdirSync(srcpath)
-    .filter(file => file !== 'resumes.js' && file !== 'template.vue' && file !== 'options.js');
+    .filter(file => file !== 'resumes.js' && file !== 'template.vue' && file !== 'options.js' && file ==="YipAnton_Resume.vue");
 };
 
 convert();
